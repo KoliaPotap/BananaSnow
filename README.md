@@ -9,9 +9,8 @@ https://github.com/nodejs/node
 
 ![ezgif-3-a69c317f3a.gif](https://cdn.steemitimages.com/DQmYeV2D2DSDenkD5d3L8gRgAG88svhHY3cE6boFusiRAsS/ezgif-3-a69c317f3a.gif)
 
-I wanted to try some js animations. First, default, animation will be snow.
-I imagine what would be stupid to do with bananas. Answer is snow.  
-Then I change my mind and add button that changes image.
+I wanted to try some js animations. First, default, animation will be rain.
+It would be cool to do rain of bananas. 
 Most buttons don't work yet. Only enter your file
 Use small images. Text, transparent logo ...
 - Technology Stack
