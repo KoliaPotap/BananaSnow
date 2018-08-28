@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="/js/draga.js"></script>
+</head>
+<style>
+.rightBO{
+  position: absolute;
+top: 10%;
+  right: 6%;
+  border-right: 2px solid red;
+}
+.card {
+  height: 380px;
+    transition: 0.3s;
+    width: 272px;
+    border-radius: 25px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.file_upload{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    transition: box-shadow 0.1s linear
+}
+.file_upload.focus{
+    box-shadow: 0 0 5px rgba(0,30,255,0.4)
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.baba{
+    color: #fff;
+    width: 82px;
+    border: none;
+    height: 70px;
+     }
+
+
+
+input[type="file"] {  display: none;  }
+
+</style>
+
+<body onload="init()">
+  <canvas  style="position: absolute;left: 0px; border-radius: 0 0 0 0;" id="canvasRain" width="1050px"  height="629px"></canvas>
+
+  <div class="card " style="position: absolute; top: 10%;  float: right; right: 2%;">
+
+  <label class="baba"style="padding: 12px; width: 100px;top: -8px;background: green; border-radius: 25px 0 0 0; "> Enter Your File
+    <input id="files" type="file" onchange="previewFile()" accept=".jpg, .jpeg, .png">
+  </label> <button class="baba" style="left:75px;  background: green; border-radius: 0 0 0 0;"><label>Move right  </label></button>
+  <button class="baba" style="left:150px; padding: 13px;background: green; border-radius: 0 25px 0 0;"><label>Move left</label></button>
+
+  <button class="baba" style="width: 100px; background: green; border-radius: 0 0 0 0;"><label>Move left  </label></button>
+  <button class="baba" style=" background: green; border-radius: 0 0 0 0;"><label>Move left  </label></button>
+  <button class="baba" style=" background: green; border-radius: 0 0 0 0;"><label>Move left  </label></button>
+
+  <button class="baba" style="width: 100px; margin-top: 5px; background: green; border-radius: 0 0 0 0;"><label>to center  </label></button>
+  <button class="baba" style=" background: green; border-radius: 0 0 0 0;"><label>to corners  </label></button>
+  <button class="baba" style=" background: green; border-radius: 0 0 0 0;"><label>corn2cent</label></button>
+
+  <button class="baba" style="width: 100px;  margin-top: 5px;background: green; border-radius: 0 0 0 0;"><label>Swing</label></button>
+  <button class="baba" style=" background: green; border-radius: 0 0 0 0;"><label>UP&down  </label></button>
+  <button class="baba" style=" background: green; border-radius: 0 0 0 0;"><label>left2right</label></button>
+
+  <button class="baba" style="width: 100px; margin-top: 5px; background: green; border-radius: 0 0 0 25px;"><label>Move left  </label></button>
+  <button class="baba" style=" background: green; border-radius: 0 0 0 0;"><label>Diag L2R</label></button>
+  <button class="baba" style=" background: green; border-radius: 0 0 25px 0;"><label>Diag R2L</label></button>
+
+  </div>
+
+    </body>
+</html>
