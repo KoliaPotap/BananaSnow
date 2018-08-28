@@ -1,5 +1,5 @@
 # RedUsers
-Simple user management app using Node.js and Redis
+Simple animation app with canvas. Animate image that you pick.
 
 ### Version
 1.0.0
@@ -20,5 +20,5 @@ Run Server
 $ npm start
 ```
 
-Visit http://localhost:3000
+Visit http://localhost:8080
 
