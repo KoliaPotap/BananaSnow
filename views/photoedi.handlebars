@@ -53,7 +53,30 @@ input[type="file"] {  display: none;  }
   <canvas  style="position: absolute;left: 0px; border-radius: 0 0 0 0;" id="canvasRain" width="1050px"  height="629px"></canvas>
 
   <div class="card " style="position: absolute; top: 10%;  float: right; right: 2%;">
+<label class="fileContainer" style="display: block; color: #B4886B;
+font-weight: bold;overflow: hidden; padding: 12px;position: relative; border-radius: 0 0 0 25px; ">
+        Click on text to trigger the file uploader!
+        <input id="files"  type="file" onchange="previewFile()" style="display: none;" accept=".jpg, .jpeg, .png" ></input>
+    </label>
 
+    
+
+
+       <div>
+           <button type="button" class="baba" ><label>Move right  </label></button>
+           <button type="button" class="baba"><label>Move right  </label></button>
+           <button type="button" class="baba"><label>Move right  </label></button>
+       </div>
+       <div >
+           <button type="button" class="baba"><label>Move right</label></button>
+           <button type="button" class="baba"><label>Move right</label></button>
+           <button type="button" class="baba"><label>Move right</label></button>
+       </div>
+       <div >
+           <button type="button" class="baba"><label>Move right  </label></button>
+           <button type="button" class="baba"><label>Move right  </label></button>
+           <button type="button" class="baba" ><label>Move right  </label></button>
+       </div>
   <label class="baba"style="padding: 12px; width: 100px;top: -8px;background: green; border-radius: 25px 0 0 0; "> Enter Your File
     <input id="files" type="file" onchange="previewFile()" accept=".jpg, .jpeg, .png">
   </label> <button class="baba" style="left:75px;  background: green; border-radius: 0 0 0 0;"><label>Move right  </label></button>
