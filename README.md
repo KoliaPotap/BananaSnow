@@ -1,8 +1,9 @@
 # RedUsers
 Simple animation app with canvas. Animate image that you pick.
+made by https://steemit.com/@doelist
 
 ### Version
-1.0.0
+0.1.0
 
 ## Usage
 
